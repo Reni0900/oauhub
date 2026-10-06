@@ -47,3 +47,18 @@ html,body{color:var(--ink);background:#d8e6d9;font-family:Inter,ui-sans-serif,sy
 
 .campus-welcome p,.campus-welcome button{display:none}.campus-welcome h1{font-size:26px}.campus-welcome{max-width:220px}@media(max-width:760px){.campus-welcome h1{font-size:21px}.campus-welcome{max-width:175px}}
 @media(max-width:760px){.campus-welcome{display:none}.scene{inset:0}.phone-launch{bottom:293px}}
+.origin-backdrop{z-index:1000;background:rgba(9,34,27,.65);backdrop-filter:blur(9px)}
+.origin-reveal{max-width:460px;text-align:center;border:1px solid #d4dfcf;background:linear-gradient(150deg,#fffdf2,#edf5ee);padding:32px;animation:origin-arrive .35s ease-out}
+.origin-reveal.nepo{background:linear-gradient(150deg,#fff9df,#edf5ee)}
+.origin-emblem{display:grid;place-items:center;width:88px;height:88px;margin:22px auto 14px;border-radius:50%;background:#153f32;color:#efcf74;box-shadow:0 0 0 8px #153f320b}
+.origin-reveal .origin-intro{font-size:14px;margin-bottom:4px;color:#60756a}
+.origin-reveal h2{font-size:44px;line-height:1.1;margin:0 0 14px;color:#163f32}
+.origin-reveal h2 span{color:#b88a24}
+.origin-facts{display:grid;gap:12px;text-align:left;margin:24px 0}
+.origin-facts>div{display:flex;align-items:center;gap:14px;padding:16px;background:#ffffffb8;border:1px solid #dbe5d9;border-radius:16px;color:#38705a}
+.origin-facts span{font-size:12px;color:#63766b}.origin-facts strong{display:block;font-size:22px;color:#173e32;margin-top:4px}.origin-facts small{display:block;margin-top:4px}
+.origin-note{display:block;color:#66776b;line-height:1.5;margin-bottom:18px}.origin-reveal .enter-campus{display:flex;align-items:center;justify-content:center;gap:10px}
+.account-modal label small{font-size:11px;font-weight:400;color:#617267;line-height:1.5}.student-creator select:disabled{opacity:1;background:#edf3ed;color:#174c38}
+@keyframes origin-arrive{from{opacity:0;transform:translateY(14px) scale(.96)}to{opacity:1;transform:none}}
+@media(max-width:540px){.origin-reveal{padding:24px;max-width:calc(100vw - 24px)}.origin-reveal h2{font-size:36px}.origin-emblem{width:70px;height:70px;margin-top:18px}.origin-facts{margin:18px 0}}
+@media(prefers-reduced-motion:reduce){.origin-reveal{animation:none}}
