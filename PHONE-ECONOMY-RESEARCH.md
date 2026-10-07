@@ -17,3 +17,7 @@ Ife tutor listings on [Superprof](https://www.superprof.ng/lessons/maths/ife/) i
 ## Transport
 
 [Ife City Blog’s April 2026 report](https://www.ifecityblog.com/2026/04/students-commuters-record-50-percent-fare-reduction-as-tinubu-donated-shuttles-begin-operations-at-oau.html) reports the subsidised campus fare at ₦100 and older regular routes around ₦150–₦200. Keep a distinct subsidised option. Regular campus rides use distance bands ₦100/₦150/₦200; off-campus journeys use modelled ₦300/₦400/₦600 bands. Displayed kilometre estimates come from the stylised game map, not surveyed real-world route distances. Fare computation is shared by client and server; the server calculates and debits it independently. Student union transport support reduces fares by ₦50. Off-campus trips cannot use the campus-only subsidy.
+
+
+## October 7 gameplay adjustment
+At the player owner’s request, job rewards now use a 2× game boost and shifts take 25–60 seconds. These are gameplay rewards, not claims of actual Nigerian wages. A new shift unlocks 60 seconds after the last start. Food images are generated illustrations of each listed dish, not vendor photographs. Visitor figures count unique browser IDs since this update; online means a heartbeat within 30 seconds.
