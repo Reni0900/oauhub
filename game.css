@@ -320,3 +320,6 @@ html,body{color:var(--ink);background:#d8e6d9;font-family:Inter,ui-sans-serif,sy
 .global-game-hud{top:12px;left:0;right:0;width:100%;padding:0 12px;transform:none;justify-content:center}
 @media(min-width:761px) and (max-width:1199px){.global-game-hud{top:82px}}
 @media(max-width:760px){.global-game-hud{top:72px}}
+
+/* Map dragging keeps taps available for campus interactions. */
+.scene canvas{cursor:grab}.scene canvas.map-dragging{cursor:grabbing}
