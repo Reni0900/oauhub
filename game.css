@@ -293,3 +293,16 @@ html,body{color:var(--ink);background:#d8e6d9;font-family:Inter,ui-sans-serif,sy
 
 .topbar .profile-button>span{flex-shrink:0}
 .game-shell:has(.side-panel) .student-bar,.game-shell:has(.how-to-play) .student-bar{visibility:hidden}
+
+/* Anchor the campus identity above the left activity stack. */
+.topbar .brand{position:fixed;top:12px;left:18px;z-index:81;display:flex;align-items:center;gap:10px;height:56px;padding:10px 15px 10px 10px;background:#fffffcf5;border:1px solid #fff;border-radius:19px;box-shadow:0 5px 22px #24483818;backdrop-filter:blur(12px)}
+.topbar .brand-mark{width:36px;height:36px;border-radius:13px;background:#23583f;color:#f4dda2}.topbar .brand>div{font-size:22px;letter-spacing:-.8px}.topbar{gap:0;padding:0 12px;height:52px}
+@media(min-width:761px) and (max-width:1100px){.global-game-hud{padding-left:220px;padding-right:18px}.game-status-pill{gap:10px;padding:11px 14px;font-size:11px}}
+@media(max-width:760px){
+ .topbar{top:12px!important;left:auto!important;right:12px!important;width:auto;max-width:calc(100% - 182px);height:48px;padding:0 8px;border-radius:16px}
+ .topbar .brand{top:12px;left:12px;height:48px;padding:8px 11px 8px 8px;gap:7px;border-radius:16px}.topbar .brand-mark{width:31px;height:31px;border-radius:11px}.topbar .brand>div{font-size:19px!important}
+ .top-actions{gap:7px}.topbar .profile-button{max-width:98px;font-size:11px}.topbar .profile-button>span{width:24px;height:24px}.topbar .auth-link{font-size:10px}.topbar .primary{font-size:10px;padding:8px 9px}
+ .global-game-hud{top:72px}.global-activity-row{top:128px;left:12px}.hostel-view.interior-view,.venue-view{top:224px!important}.explore-strip{top:224px!important}.phone-overlay{padding-top:244px!important}.phone-stage{height:calc(100dvh - 256px)!important}
+}
+
+.topbar{backdrop-filter:none}
