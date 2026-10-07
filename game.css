@@ -256,3 +256,13 @@ html,body{color:var(--ink);background:#d8e6d9;font-family:Inter,ui-sans-serif,sy
 @media(max-width:760px){.global-game-hud{width:100%;top:8px}.game-status-pill{max-width:calc(100% - 16px)}.global-activity-row{left:8px;right:auto;top:64px;width:160px;gap:4px}.activity-pill{min-height:37px;padding:7px 11px}.topbar{right:8px!important;left:8px!important;top:158px!important}.explore-strip{top:233px!important}.phone-overlay{padding-top:201px!important}.phone-stage{height:calc(100dvh - 213px)!important}.hostel-view.interior-view,.venue-view{top:158px!important}.room-decorator{left:8px;bottom:90px;width:min(300px,calc(100% - 16px));max-height:53%;padding:13px}.room-decorator>p{font-size:11px;margin:8px 0}.room-decorator h2{font-size:20px}.interior-dock button{min-width:0}.room-decorator:has(.placement-controls){max-height:46%}.placement-controls{position:sticky;top:0;z-index:1}.shower-backdrop,.cooking-backdrop{padding-top:158px!important}}
 
 @media(min-width:761px){.interior-view .hostel-header,.venue-view>header{padding-left:235px}}
+
+/* A compact, balanced release notice. */
+.update-available{width:min(460px,calc(100% - 32px));display:grid;grid-template-columns:38px minmax(0,1fr) auto;align-items:center;gap:12px;padding:14px 16px;border:1px solid #d8e5dc;border-radius:20px;background:#fffffc;box-shadow:0 8px 32px #173e3626;bottom:22px}
+.update-notice-icon{display:grid;place-items:center;width:38px;height:38px;border-radius:13px;background:#eaf4ed;color:#237451}
+.update-notice-icon svg{width:21px;height:21px}
+.update-available strong{display:block;font-size:14px;line-height:1.4;font-weight:600;letter-spacing:-.15px;color:#254338}
+.update-available .update-refresh{display:flex;justify-content:center;align-items:center;gap:7px;min-height:40px;margin:0;padding:10px 14px;border:0;border-radius:13px;background:#216d50;color:white;font-size:12px;font-weight:600;white-space:nowrap;box-shadow:0 3px 8px #216d501a}
+.update-available .update-refresh:hover{background:#19583f}
+.update-refresh svg{width:15px;height:15px}
+@media(max-width:480px){.update-available{width:calc(100% - 24px);bottom:12px;gap:10px;padding:13px;border-radius:18px;grid-template-columns:34px minmax(0,1fr) auto}.update-notice-icon{width:34px;height:34px;border-radius:11px}.update-available strong{font-size:12px;line-height:1.45}.update-available .update-refresh{font-size:12px;padding:10px 12px;min-height:40px}}
